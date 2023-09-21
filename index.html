@@ -4,37 +4,65 @@
     <meta charset="UTF-8">
     <title>Formulário HTML</title>
 </head>
+<style>
+    body {
+        padding-left: 4%;
+    }
+</style>
 <body>
+    <br><br><br>
     <form autocomplete="on" action="pagina2.html" method="get">
+<fieldset>
+    <legend>Cadastro</legend>
         Nome:
-        <input type="text" name="nome" id="nome" placeholder="Aqui é o nome!" required> 
+        <input type="text" name="nome" id="nome" placeholder="Aqui é o nome!" required>
         <br>
         <br>
-        Sobrenome:
-        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" maxlength="10">
-        <br>
-        <br>
-        E-mail:
-        <input type="email" name="email" id="email">
-        <br>
-        URL:
-        <input type="url" name="url" id="url">
-        <br>
+        Sobrenome:  
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" maxlength="10"> 
+        <br>                                                                                       
+        <br> 
+        E-mail: 
+        <input type="email" name="email" id="email" placeholder="email"> 
+        <br>                                                               
+        <br>                                                        
+        URL:                                                     
+        <input type="url" name="url" id="url" placeholder="url">
+        <br>                                                    
         <br>
         Número:
-        <input type="number" name="number" id="number">
+        <input type="number" name="number" id="number" placeholder="numero">
         <br>
         <br>
         Data e hora:
         <input type="datetime-local" name="datatempo" id="data">
-
-
-
         <br>
         <br>
-        <input type="submit" value="ENVIAR!">
+        <!--radio button marca apenas 1 opção quando o name está igual para todos. 
+            deve permanecer assim para exercer a função de radio button-->
+        <p>radio button:</p>
+        <input type="radio" name="videogame"/> Atari <br>
+        <input type="radio" name="videogame"/> SNES <br>
+        <input type="radio" name="videogame"/> PS <br>
+        <br>
+        <br> 
+    <!--checkbox permite marcar mais de uma opção-->
+       <p>radio button:</p>
+        <input type="checkbox" name="atari"/> atari <br> <!--se escrever checked após as aspas do name, a caixinha aparece marcada-->
+        <input type="checkbox" name="snes"/> snes <br>
+        <input type="checkbox" name="ps"/> ps <br>
+        <br>
+        <input type="submit" value="ENVIAR" />
+        <br> <br>
+        <select>
+            <option value="html5">HTML5</option>
+            <option value="javascript">JS</option>
+            <option value="php">PHP</option>
+            <option value="ruby">ruby</option>
+
+        </select>
         
+</fieldset>
     </form>
-    
 </body>
 </html>
