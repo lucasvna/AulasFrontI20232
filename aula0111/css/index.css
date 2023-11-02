@@ -1,0 +1,19 @@
+body {
+    background-color: #85b18d94
+}
+
+#p1 {
+    color: rgb(255, 0, 0); 
+    text-align: left;
+}
+
+#p2 {
+    color: rgb(255, 0, 255);
+    text-align: center;
+}
+
+/* a prioridade do css são as IDs (#blablabla), pois sao mais específicas */
+
+#p3 {
+    text-align: right;
+}   

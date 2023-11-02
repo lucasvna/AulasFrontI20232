@@ -1,0 +1,16 @@
+#div1 {
+    margin: 50px 10px 10px 5px;
+    padding: 10px;
+    border: 02px solid #000;
+    
+    background-image: url(/images/frutiger-bg.jpg);
+    width: 1004px;
+    height: 650px;
+    font-style: italic;
+
+}   
+
+#div2 {
+    background-image: url(/images/ionia-bg.jpg);
+    color: azure;
+}
